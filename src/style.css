@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+#root {
+    width: 900px;
+    margin: auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    align-items: center;
+}
+.header-underline {
+    opacity: 0.2;
+}
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    font-size: 24px;
+    color: #003399;
+}
+.list-item {
+    color: #003399;
+    font-weight: bold;
+}
+.number {
+    color: #f27c0f;
+    font-size: 288px;
+    text-align: center;
+    margin: auto;
+}
+button {
+    width: 200px;
+    height: 58px;
+    font-size: 24px;
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+}
+.buttons {
+    width: 710px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+.increment {
+    background-color: #003399;
+}
+.decrement {
+    background-color: #f27c0f;
+}
+.default {
+    background-color: #e5e5e5;
+    color: #000;
+}
+.main {
+    text-align: center;
+}
+footer {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 250px;
+
+}
+.footer-item {
+    display: flex;
+    align-items: center;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    list-style: none;
+}
